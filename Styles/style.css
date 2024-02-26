@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.br{
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.tect{
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.flex-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.flex-item a{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.background{
+    background-image: url(../Assests/images/backgound\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+}
+.logo{
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    padding: 10px;
+}
+
+.pro{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+}
+
+.card1{
+    height: 200px;
+    width: 24.5%;
+    background-image: url(../Assests/images/card\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card2{
+    height: 200px;
+    width: 24.5%;
+    background-image: url(../Assests/images/card\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card3{
+    height: 200px;
+    width: 24.5%;
+    background-image: url(../Assests/images/card\ 3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card4{
+    height: 200px;
+    width: 24.5%;
+    background-image: url(../Assests/images/card\ 4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card5{
+    height: 200px;
+    width: 24.5%;
+    background-image: url(../Assests/images/card\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card6{
+    height: 200px;
+    width: 24.5%;
+    background-image: url(../Assests/images/card\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card7{
+    height: 200px;
+    width: 24.5%;
+    background-image: url(../Assests/images/card\ 4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card8{
+    height: 200px;
+    width: 24.5%;
+    background-image: url(../Assests/images/card\ 3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .card{
+    display: flex;
+} */
+.card p{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+.para{
+    background-color: rgb(230, 228, 228);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.links-container{
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+.links-container h2{
+    font-weight: 400;
+}
+.light{
+    font-weight: 300;
+}
+.links{
+   max-width: 24%;
+    
+}
+.links img{
+    width: 100%;
+    height: 180px;
+}
+.links p{
+    margin-top: 15px;
+}
+.btn {
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(185, 184, 184);
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+}
+.prob{    
+        margin-top: 80px;
+        margin-bottom: 10px;
+}
+.prov{
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+    font-weight: 500;
+}
+hr{
+    opacity: 0.5;
+}
+input{
+    min-width: 100%;
+    margin-top: 15px;
+    opacity: 0.7;
+    padding: 3px;
+}
+.btr a{
+    margin-top:15px ;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.images{
+    margin-top: 15px;
+    width: 100%;
+    height: 80vh;
+}
+.paro{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    font-weight: 300;
+}
+.paro a{
+    display: inline-block;
+    color: white;
+}
+.last{
+    text-align: center;
+    margin-top: 10px;
+}
